@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Developer Internship</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#" class="brand" aria-label="PixelForge Internship home">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span>PixelForge Internship</span>
+      </a>
+      <div class="nav-links" aria-label="Page sections">
+        <a href="#learn" data-nav-link>What you learn</a>
+        <a href="#process" data-nav-link>Process</a>
+        <a href="#apply" data-nav-link>Apply</a>
+      </div>
+      <a class="button" href="#apply">Apply now</a>
+    </nav>
+
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Frontend Developer Internship</div>
+        <h1>Build polished web experiences with a product team.</h1>
+        <p class="hero-copy">
+          Join a 12-week internship where you ship responsive interfaces, learn modern component patterns, and turn design files into production-ready frontend work.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="#apply">Start application</a>
+          <a class="button secondary" href="#learn">View curriculum</a>
+        </div>
+        <div class="stats" aria-label="Internship highlights">
+          <div class="stat">
+            <strong data-count="12">0</strong>
+            <span>weeks of guided frontend work</span>
+          </div>
+          <div class="stat">
+            <strong data-count="4">0</strong>
+            <span>portfolio-ready project milestones</span>
+          </div>
+          <div class="stat">
+            <strong>1:1</strong>
+            <span>weekly mentor review sessions</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="apply-panel" id="apply" aria-label="Internship application summary">
+        <div class="panel-top">
+          <strong>Role snapshot</strong>
+          <div class="window-dots" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="role-card">
+            <div class="tag-row">
+              <span class="tag">Remote friendly</span>
+              <span class="tag">Paid stipend</span>
+              <span class="tag">React track</span>
+            </div>
+            <div class="code-preview" aria-label="Code sample">
+              <span><span class="k">const</span> intern = {</span>
+              <span>&nbsp;&nbsp;focus: <span class="s">"accessible UI"</span>,</span>
+              <span>&nbsp;&nbsp;stack: [<span class="s">"HTML"</span>, <span class="s">"CSS"</span>, <span class="s">"JavaScript"</span>],</span>
+              <span>&nbsp;&nbsp;status: <span class="v">"ready to ship"</span></span>
+              <span>};</span>
+            </div>
+            <ul class="check-list">
+              <li><span class="check">✓</span><span>Work on real product screens with designer and engineer feedback.</span></li>
+              <li><span class="check">✓</span><span>Practice responsive layouts, accessibility, stateful components, and API integration.</span></li>
+              <li><span class="check">✓</span><span>Finish with reviewed work samples and interview-ready project notes.</span></li>
+            </ul>
+            <button class="button full" type="button" id="applyButton">Send application</button>
+            <p class="form-message" id="formMessage" aria-live="polite"></p>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section" id="learn">
+      <div class="section-heading">
+        <h2>Learn the habits behind reliable interfaces.</h2>
+        <p>Each track pairs technical depth with the day-to-day workflow frontend developers actually use on product teams.</p>
+      </div>
+      <div class="tracks">
+        <article class="track">
+          <div class="track-icon" aria-hidden="true">▦</div>
+          <h3>Responsive layouts</h3>
+          <p>Create flexible grids, clean spacing systems, and mobile-first pages that hold up across real device sizes.</p>
+        </article>
+        <article class="track">
+          <div class="track-icon" aria-hidden="true">&lt;/&gt;</div>
+          <h3>Component thinking</h3>
+          <p>Break designs into reusable UI pieces, manage component states, and document decisions clearly for teammates.</p>
+        </article>
+        <article class="track">
+          <div class="track-icon" aria-hidden="true">⚙</div>
+          <h3>Production quality</h3>
+          <p>Improve accessibility, performance, browser behavior, and handoff quality before code reaches users.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section timeline-band" id="process">
+      <div class="timeline">
+        <div>
+          <div class="eyebrow">Application Process</div>
+          <h2>Simple steps from portfolio to first sprint.</h2>
+          <p>We look for curiosity, care for details, and evidence that you enjoy making interfaces feel good to use.</p>
+        </div>
+        <div class="steps">
+          <article class="step">
+            <div>
+              <h3>Submit your profile</h3>
+              <p>Share your resume, GitHub or portfolio, and one frontend project you are proud of.</p>
+            </div>
+          </article>
+          <article class="step">
+            <div>
+              <h3>Complete a UI task</h3>
+              <p>Build a small responsive screen so we can see your approach to structure, styling, and polish.</p>
+            </div>
+          </article>
+          <article class="step">
+            <div>
+              <h3>Meet the mentors</h3>
+              <p>Talk through your decisions, goals, and where you want to grow during the internship.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="final-cta">
+        <div>
+          <h2>Ready to turn your frontend skills into shipped work?</h2>
+          <p>Applications are reviewed weekly. Bring your curiosity, a working portfolio link, and a willingness to iterate.</p>
+        </div>
+        <a class="button" href="mailto:careers@example.com?subject=Frontend%20Developer%20Internship%20Application">Email application</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
